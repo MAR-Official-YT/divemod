@@ -1,30 +1,47 @@
 {
-  "modName": "fish plus",
-  "diverSpeed": 7,
-  "o2DecayRate": 0.03,
-  "bubbleO2Refill": 8,
+  "modName": "More Fish",
+  "diverSpeed": 6.5,
+  "o2DecayRate": 0.028,
+  "bubbleO2Refill": 12,
   "emojiFontSize": 35,
+  "fishSpawnInterval": 850,
+  "deepOceanThreshold": 600,
+  "moonJellyfishDepth": 750,
   "customFishTypes": [
     {
       "type": "crab",
       "emoji": "🦀",
       "isDangerous": false,
-      "spawnLevel": 0
-      "spawnChance": common
+      "spawnLevel": 0,
+      "spawnChance": "common"
     },
     {
       "type": "shark",
       "emoji": "🦈",
       "isDangerous": true,
-      "spawnLevel": 700
-      "spawnChance": 0.02
+      "spawnLevel": 500,
+      "spawnChance": "rare"
     },
     {
       "type": "starfish",
       "emoji": "⭐",
       "isDangerous": false,
-      "spawnLevel": 300
-      "spawnChance": uncommon
+      "spawnLevel": 150,
+      "spawnChance": "uncommon"
+    },
+    {
+      "type": "anglerfish",
+      "emoji": "🎣",
+      "isDangerous": false,
+      "spawnLevel": 1000,
+      "spawnChance": 0.07
+    },
+    {
+      "type": "squid",
+      "emoji": "🦑",
+      "isDangerous": false,
+      "spawnLevel": 300,
+      "spawnChance": "uncommon"
     }
   ]
 }
