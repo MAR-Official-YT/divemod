@@ -1,0 +1,27 @@
+{
+  "modName": "fish plus",
+  "diverSpeed": 7,
+  "o2DecayRate": 0.03,
+  "bubbleO2Refill": 8,
+  "emojiFontSize": 35,
+  "customFishTypes": [
+    {
+      "type": "crab",
+      "emoji": "🦀",
+      "isDangerous": false,
+      "spawnLevel": 0
+    },
+    {
+      "type": "shark",
+      "emoji": "🦈",
+      "isDangerous": true,
+      "spawnLevel": 700
+    },
+    {
+      "type": "starfish",
+      "emoji": "⭐",
+      "isDangerous": false,
+      "spawnLevel": 200
+    }
+  ]
+}
