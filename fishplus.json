@@ -10,18 +10,21 @@
       "emoji": "🦀",
       "isDangerous": false,
       "spawnLevel": 0
+      "spawnChance": common
     },
     {
       "type": "shark",
       "emoji": "🦈",
       "isDangerous": true,
       "spawnLevel": 700
+      "spawnChance": 0.02
     },
     {
       "type": "starfish",
       "emoji": "⭐",
       "isDangerous": false,
-      "spawnLevel": 200
+      "spawnLevel": 300
+      "spawnChance": uncommon
     }
   ]
 }
