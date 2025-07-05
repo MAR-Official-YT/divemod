@@ -9,8 +9,8 @@
   "moonJellyfishDepth": 750,
   "customFishTypes": [
     {
-      "type": "crab",
-      "emoji": "🦀",
+      "type": "lobster",
+      "emoji": "🦞",
       "isDangerous": false,
       "spawnLevel": 0,
       "spawnChance": "common"
@@ -21,27 +21,6 @@
       "isDangerous": true,
       "spawnLevel": 500,
       "spawnChance": "rare"
-    },
-    {
-      "type": "starfish",
-      "emoji": "⭐",
-      "isDangerous": false,
-      "spawnLevel": 150,
-      "spawnChance": "uncommon"
-    },
-    {
-      "type": "anglerfish",
-      "emoji": "🎣",
-      "isDangerous": false,
-      "spawnLevel": 1000,
-      "spawnChance": 0.07
-    },
-    {
-      "type": "squid",
-      "emoji": "🦑",
-      "isDangerous": false,
-      "spawnLevel": 300,
-      "spawnChance": "uncommon"
     }
   ]
 }
